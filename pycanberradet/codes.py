@@ -14,4 +14,4 @@ errors = {
     31: "Error: recalibration failure with the specified spectrum.",
 }
 
-bits = pickle.load(open("bits.p", "rb"))
+bits = pickle.load(open("bits.pickle", "rb"))
